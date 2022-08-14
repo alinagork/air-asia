@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  background: #001821;
+  line-height: 1.42;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.main-page-wrapper {
+  background: url("../../img/background-upper.png") center top no-repeat, url("./img/background-lower.png") right bottom 181px no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 480px;
+}
+
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background: url("../../img/headline-services.png") right 15% top no-repeat;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__content {
+  background: #fff;
+  color: #303030;
+  padding: 97px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-section {
+  background: #FFFFFF;
+  color: #1A1B1E;
+  padding: 75px 0px;
+}
+
+.inner-section--background--grey {
+  background: #F4F5F5;
+}
