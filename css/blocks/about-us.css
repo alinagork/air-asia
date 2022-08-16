@@ -1,0 +1,48 @@
+.about-us {
+  margin-bottom: 58px;
+}
+
+.about {
+  display: flex;
+}
+
+
+.about:before {
+  content: "";
+  width: 490px;
+  height: 503px;
+  background: url("../../img/gates-aboutus.png") center center / cover no-repeat;
+  display: block;
+}
+
+.about__description {
+  background: url(../../img/mountains-aboutus.png) center center / cover no-repeat;
+  padding: 69px 183px 70px 86px;
+  max-width: 790px;
+  margin-left: -140px;
+  margin-top: 95px;
+  border-radius: 5px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.about__description-text {
+  color: #000000;
+  margin-bottom: 41px;
+  min-height: 134px;
+  line-height: 27px;
+  margin-right: 17px;
+}
+
+.about__description-text p {
+  margin-bottom: 20px;
+}
+
+.about__description-text p:last-child {
+  margin-bottom: 0px;
+}
