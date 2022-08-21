@@ -1,0 +1,54 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../../img/background-welcome-page.png") center bottom / cover no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation: zoom .9s ease-in;
+  animation-fill-mode: forwards;
+  min-width: 591px;
+  min-height: 248px;
+  background: url("../../img/shades-welcome.png") center bottom 29px / cover no-repeat;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.central__subtitle {
+  margin-bottom: 53px;
+}
